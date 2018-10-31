@@ -44,7 +44,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.PlaceViewHolder> {
 
         public PlaceViewHolder(View itemView) {
             super(itemView);
-
             mPlace = itemView.findViewById(R.id.ivPlace);
         }
     }
