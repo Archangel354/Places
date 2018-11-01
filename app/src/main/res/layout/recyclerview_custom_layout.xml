@@ -9,8 +9,9 @@
 
     <ImageView
         android:id="@+id/ivPlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/image_1"
         />
 </android.support.constraint.ConstraintLayout>
